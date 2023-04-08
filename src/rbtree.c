@@ -410,6 +410,10 @@ int rbtree_erase(rbtree *t, node_t *p) {
   return 0;
 }
 
+void test(node_t *curr){
+
+}
+
 void subtree_to_array(const rbtree *t, node_t *curr, key_t *arr, size_t n, size_t *count){
   if (curr == t->nil){
     return;
