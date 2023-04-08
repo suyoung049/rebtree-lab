@@ -194,6 +194,8 @@ void rb_insert_fixup(rbtree *t, node_t *z) {
 //   return z;
 // }
 
+//test 추가
+
 node_t *rbtree_insert(rbtree *t, const key_t key){
   node_t *y = t->nil;
   node_t *x = t->root;
